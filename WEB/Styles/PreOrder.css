@@ -1,0 +1,103 @@
+.preorder-content {
+  background-color: darkslategray;
+  height: 100vh;
+}
+
+.preorder-content {
+  background-color: dimgray;
+  height: 100vh;
+  display: flex;
+}
+.form-container {
+  padding: 5%;
+  display: flex;
+}
+.form-container img {
+  width: 35vw;
+  height: 400px;
+  margin: 5%;
+}
+.form-group {
+  position: relative;
+  margin: 1vh 5%;
+  width: 45vw;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.form-field {
+  font-family: inherit;
+  width: 100%;
+  border: 0;
+  margin: 1.3vh 0;
+  border-bottom: 2px solid white;
+  font-size: 1.2rem;
+  outline: 0;
+  color: white;
+
+  background: transparent;
+}
+.form-list {
+  display: flex;
+  flex-direction: column;
+}
+.form-field:focus {
+  border-color: grey;
+}
+
+.form-label {
+  font-size: 1rem;
+  color: #9b9b9b;
+}
+
+option {
+  color: black;
+  border: none;
+}
+
+select:invalid {
+  color: grey;
+}
+
+input[type="submit"] {
+  margin: 5% 20px;
+  background-color: white;
+  color: black;
+  font-size: 1.6rem;
+  border: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+  padding: 0.5%;
+  border-radius: 0.3rem;
+}
+.inline-form {
+  display: flex;
+}
+input[type="checkbox"] {
+  transform: scale(1.5);
+  margin-right: 15px;
+}
+@media only screen and (max-width: 800px) {
+  .form-list {
+    margin: 20% !important;
+  }
+  .preorder-content {
+    height: 20%;
+  }
+  .form-container img {
+    display: flex !important;
+    justify-content: center !important;
+    width: 80% !important;
+  }
+  .form-container {
+    padding: 5% 3%;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center !important;
+    margin: 5%;
+  }
+  body {
+    overflow-x: hidden;
+  }
+}

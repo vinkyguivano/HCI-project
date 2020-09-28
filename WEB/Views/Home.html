@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rainbow 7 Siege</title>
+    <link href="../Styles/Home.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="nav-top">
+      <img class="nav-top-img" src="../Assets/logo_gold.png" />
+    </div>
+    <div class="navbar">
+      <div class="navbar-content">
+        <div class="left">
+          <a href="Home.html">Home</a>
+          <div class="right">
+            <a href="PreOrder.html">
+              <button class="btn preorder">Pre-Order</button>
+            </a>
+          </div>
+          <nav>
+            <ul>
+              <li>
+                <a class="dropdown-text" href="#">Game Info </a>
+                <ul class="dropdown-list">
+                  <li><a href="Maps.html">Maps</a></li>
+                  <li><a href="Operators.html">Operators</a></li>
+                  <li><a href="Quarantine.html">Quarantine</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+ <div class="">
+    <div class="session1">
+     
+
+      
+      <div class="slideshow-container">
+        <div class="carousel-item">
+          <img src="../Assets/quarantine.JPG" />
+          <div class="text over">Ended</div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="../Assets/halloween.jpg" />
+          <div class="text over">Ended</div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="../Assets/Quarantine.JPG" />
+          <div class="text">On Going Until 20 June 2020</div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="../Assets/Thanksgiving.jpg" />
+          <div class="text">On Going Until 25 June 2020</div>
+        </div>
+        <div class="carousel-item">
+          <img src="../Assets/Christmas-Events.jpg" />
+          <div class="text soon">Coming Soon</div>
+        </div>
+
+        <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+        <a class="next" onclick="changeSlide(1)">&#10095;</a>
+      </div>
+      <br />
+
+      <div class="dot-container">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+      </div>
+
+      <div class="title-event">Recent Events</div>
+    </div>
+    <div class="session2">
+      <div class="operator-title">NEW OPERATORS</div>
+      <div class="image-list">
+        <div class="image-container">
+          <div class="image-title">WAMAI</div>
+          <img class="image-operators" src="../Assets/wamai.png" id="wamai" />
+        </div>
+        <div class="image-container">
+          <div class="image-title">KALI</div>
+          <img class="image-operators kali" src="../Assets/Kali.png" />
+        </div>
+      </div>
+    </div>
+    <div class="session3">
+      <div class="latest-news">
+        <div class="news-title">LATEST NEWS</div>
+        <div class="news-desc">
+          <div class="news-date">2020/07/05</div>
+          NEW MAJOR UPDATE IS COMING ON 10 JULY 2020
+        </div>
+        <div class="news-desc">
+          <div class="news-date">2020/07/02</div>
+          ALL YOU NEED TO KNOW ABOUT WAMAI AND KALI
+        </div>
+        <div class="news-desc">
+          <div class="news-date">2020/07/01</div>
+          NEW MODE:QUARANTINE
+        </div>
+        <div class="news-desc">
+          <div class="news-date">2020/06/15</div>
+          DISCOUNT PACKS 50% FOR NEW PLAYERS
+        </div>
+        <div class="news-desc">
+          <div class="news-date">2020/07/10</div>
+          DETAILS OF MINOR UPDATES 7.0.0
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="content-footer">
+        POWERED BY UBIPOST
+      </div>
+    </div>
+  </body>
+  <script src="../Scripts/jquery-3.5.1.min.js"></script>
+  <script src="../Scripts/Home.js"></script>
+  <script src="../Scripts/Navbar.js"></script>
+</html>

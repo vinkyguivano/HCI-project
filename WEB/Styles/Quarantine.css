@@ -1,0 +1,79 @@
+.quarantine-title {
+  display: flex;
+  justify-content: center;
+  margin-top: 7vh;
+  font-size: 4rem;
+}
+
+.quarantine-description {
+  margin: 5% 0;
+}
+
+.quarantine-content {
+  background-color: dimgray;
+  height: 100vh;
+  font-size: 1.5rem;
+  padding: 5% 10%;
+  height: max-content;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: white;
+}
+
+@media only screen and (max-width: 800px) {
+  .image-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  img {
+    width: 30% !important;
+  }
+  .quarantine-image img {
+    width: 100% !important;
+  }
+  .image-display {
+    width: 100% !important;
+    height: 40% !important;
+  }
+}
+
+@media only screen and (max-width: 1036px) {
+  .quarantine-content {
+    padding-left: 2%;
+  }
+}
+body {
+  overflow-x: hidden;
+}
+.quarantine-image {
+  display: flex;
+  justify-content: center;
+  margin: 4rem;
+}
+
+.redirect {
+  color: mediumblue;
+  text-decoration: none;
+}
+
+.redirect:hover {
+  color: midnightblue;
+  text-decoration: none;
+}
+
+.image-list img {
+  width: 200px;
+  height: 100px;
+  margin: 1vw;
+}
+.image-list img:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.image-display {
+  width: 1200px;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+}
